@@ -33,3 +33,17 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# AWS認証情報（念のため）
+*.pem
+*.key
+
+# IDE・エディタ
+.vscode/
+.idea/
+
